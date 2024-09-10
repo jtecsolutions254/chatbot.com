@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        h1{
+            font: 1em sans-serif;
+            font-weight: bold;
+            color: blue;
+        }
+      button{
+        padding: 10px;
+        cursor: auto;
+font-style: italic;
+font-size: medium;
+font-family: Arial, Helvetica, sans-serif;
+color: #2214eb; ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to  UoEM Chatbot</h1>
+   <button> <a href="{{ url_for('chat') }}"> click here to Start Chatting</a></button>
+</body>
+</html>
